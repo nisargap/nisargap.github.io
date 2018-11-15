@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My cool new Blog</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jun 2018 16:21:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash</title>
+      <link>https://example.com/tags/bash/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>https://example.com/tags/bitcoin/</link>
+      <pubDate>Wed, 13 Dec 2017 12:29:15 -0500</pubDate>
+      
+      <guid>https://example.com/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>https://example.com/tags/cryptocurrency/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>https://example.com/tags/cryptography/</link>
+      <pubDate>Wed, 06 Dec 2017 15:18:47 -0500</pubDate>
+      
+      <guid>https://example.com/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://example.com/tags/data/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://example.com/tags/golang/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iot</title>
+      <link>https://example.com/tags/iot/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://example.com/tags/javascript/</link>
+      <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
+      
+      <guid>https://example.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://example.com/tags/mathematics/</link>
+      <pubDate>Wed, 06 Dec 2017 15:18:47 -0500</pubDate>
+      
+      <guid>https://example.com/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pizza</title>
+      <link>https://example.com/tags/pizza/</link>
+      <pubDate>Wed, 13 Dec 2017 12:29:15 -0500</pubDate>
+      
+      <guid>https://example.com/tags/pizza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Design</title>
+      <link>https://example.com/tags/product-design/</link>
+      <pubDate>Thu, 31 May 2018 14:59:58 -0400</pubDate>
+      
+      <guid>https://example.com/tags/product-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Development</title>
+      <link>https://example.com/tags/product-development/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/tags/product-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://example.com/tags/react/</link>
+      <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
+      
+      <guid>https://example.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React Native</title>
+      <link>https://example.com/tags/react-native/</link>
+      <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
+      
+      <guid>https://example.com/tags/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup Scripts</title>
+      <link>https://example.com/tags/setup-scripts/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/tags/setup-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://example.com/tags/software/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Development</title>
+      <link>https://example.com/tags/software-development/</link>
+      <pubDate>Thu, 31 May 2018 14:59:58 -0400</pubDate>
+      
+      <guid>https://example.com/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

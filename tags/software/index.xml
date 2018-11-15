@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on My cool new Blog</title>
+    <link>https://example.com/tags/software/</link>
+    <description>Recent content in Software on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jun 2018 16:21:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Barebones Golang Project with Vendoring Via a Custom Setup Script</title>
+      <link>https://example.com/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</guid>
+      <description>Often times one may want to create a barebones Go project with dependency vendoring. I recently created a simple script which allows one to quickly scaffold a Go project that uses the vendoring tool govendor.
+Prerequisites In order to use the script you must have already installed Go, if you&amp;rsquo;re on Mac and have Homebrew. You can easily install Go via brew install go. For install directions for other platforms check out the official Go docs.</description>
+    </item>
+    
+    <item>
+      <title>Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts</title>
+      <link>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</guid>
+      <description>Often times I have ideas for different types of products and services, many times I usually just write these ideas down to come back to them at a different date - this time I wanted to try something different. In this post I&amp;rsquo;ll be conceptualizing one of these ideas and how it would look like as product from both a backend and frontend design perspective.
+The idea This application is essentially a general purpose cryptocurrency and stock market alert service i.</description>
+    </item>
+    
+  </channel>
+</rss>

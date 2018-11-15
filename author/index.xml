@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Author on My cool new Blog</title>
+    <link>https://example.com/author/</link>
+    <description>Recent content in Author on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://example.com/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chris Murphy Editor Information Week</title>
+      <link>https://example.com/author/chris-murphy-editor-information-week/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/author/chris-murphy-editor-information-week/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Golding</title>
+      <link>https://example.com/author/martin-golding/</link>
+      <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
+      
+      <guid>https://example.com/author/martin-golding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nisarga Patel</title>
+      <link>https://example.com/author/nisarga-patel/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/author/nisarga-patel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

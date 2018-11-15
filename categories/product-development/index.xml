@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Development on My cool new Blog</title>
+    <link>https://example.com/categories/product-development/</link>
+    <description>Recent content in Product Development on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Jun 2018 23:17:26 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/product-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts</title>
+      <link>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</guid>
+      <description>Often times I have ideas for different types of products and services, many times I usually just write these ideas down to come back to them at a different date - this time I wanted to try something different. In this post I&amp;rsquo;ll be conceptualizing one of these ideas and how it would look like as product from both a backend and frontend design perspective.
+The idea This application is essentially a general purpose cryptocurrency and stock market alert service i.</description>
+    </item>
+    
+  </channel>
+</rss>

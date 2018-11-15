@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on My cool new Blog</title>
+    <link>https://example.com/tags/data/</link>
+    <description>Recent content in Data on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Jun 2018 13:33:07 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making sense of data</title>
+      <link>https://example.com/quote/2018-06-01-iot-quote-01/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/quote/2018-06-01-iot-quote-01/</guid>
+      <description>&amp;ldquo;One of the myths about the Internet of Things is that companies have all the data they need, but their real challenge is making sense of it. In reality, the cost of collecting some kinds of data remains too high, the quality of the data isn’t always good enough, and it remains difficult to integrate multiple data sources.&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

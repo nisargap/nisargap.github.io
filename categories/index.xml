@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My cool new Blog</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jun 2018 16:21:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bash</title>
+      <link>https://example.com/categories/bash/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/categories/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>https://example.com/categories/cryptocurrency/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/categories/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>https://example.com/categories/cryptography/</link>
+      <pubDate>Wed, 06 Dec 2017 15:18:47 -0500</pubDate>
+      
+      <guid>https://example.com/categories/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://example.com/categories/data/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/categories/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://example.com/categories/design/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://example.com/categories/development/</link>
+      <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
+      
+      <guid>https://example.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://example.com/categories/general/</link>
+      <pubDate>Fri, 06 Oct 2017 22:44:48 -0400</pubDate>
+      
+      <guid>https://example.com/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://example.com/categories/golang/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iot</title>
+      <link>https://example.com/categories/iot/</link>
+      <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
+      
+      <guid>https://example.com/categories/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://example.com/categories/javascript/</link>
+      <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
+      
+      <guid>https://example.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Development</title>
+      <link>https://example.com/categories/product-development/</link>
+      <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
+      
+      <guid>https://example.com/categories/product-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://example.com/categories/react/</link>
+      <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
+      
+      <guid>https://example.com/categories/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup Scripts</title>
+      <link>https://example.com/categories/setup-scripts/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/categories/setup-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://example.com/categories/software/</link>
+      <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
+      
+      <guid>https://example.com/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://example.com/categories/technology/</link>
+      <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
+      
+      <guid>https://example.com/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

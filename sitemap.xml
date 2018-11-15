@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2018-06-04-how-i-scaffold-a-react-project/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/quote/2018-06-01-iot-quote-01/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2018-05-31-draw-io-to-create-system-diagrams/</loc>
+    <lastmod>2018-05-31T14:59:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/link/2017-12-13-bitcoin-pizza/</loc>
+    <lastmod>2017-12-13T12:29:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2017-12-06-affine-cipher/</loc>
+    <lastmod>2017-12-06T15:18:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/quote/martin-golding-on-code/</loc>
+    <lastmod>2017-11-22T23:29:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page/about/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page/github/</loc>
+    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2017-10-06-vs-hacking/</loc>
+    <lastmod>2017-10-06T22:44:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2017-09-24-why-i-chose-hugo/</loc>
+    <lastmod>2017-09-24T15:49:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/2017-09-24-test-post/</loc>
+    <lastmod>2017-09-24T14:38:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/article/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/author/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/bash/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/bash/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/bitcoin/</loc>
+    <lastmod>2017-12-13T12:29:15-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/author/chris-murphy-editor-information-week/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/cryptocurrency/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cryptocurrency/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/cryptography/</loc>
+    <lastmod>2017-12-06T15:18:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cryptography/</loc>
+    <lastmod>2017-12-06T15:18:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/data/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/data/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/design/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/development/</loc>
+    <lastmod>2017-11-22T23:29:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/general/</loc>
+    <lastmod>2017-10-06T22:44:48-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/golang/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/golang/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/iot/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/iot/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/javascript/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/javascript/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/link/</loc>
+    <lastmod>2017-12-13T12:29:15-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/author/martin-golding/</loc>
+    <lastmod>2017-11-22T23:29:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/mathematics/</loc>
+    <lastmod>2017-12-06T15:18:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/author/nisarga-patel/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/pizza/</loc>
+    <lastmod>2017-12-13T12:29:15-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/product-design/</loc>
+    <lastmod>2018-05-31T14:59:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/product-development/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/product-development/</loc>
+    <lastmod>2018-06-05T23:17:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/quote/</loc>
+    <lastmod>2018-06-01T13:33:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/react/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/react/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/react-native/</loc>
+    <lastmod>2018-06-04T21:40:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/setup-scripts/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/setup-scripts/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/software/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/software/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/software-development/</loc>
+    <lastmod>2018-05-31T14:59:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2018-06-09T16:21:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/technology/</loc>
+    <lastmod>2017-11-22T23:29:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

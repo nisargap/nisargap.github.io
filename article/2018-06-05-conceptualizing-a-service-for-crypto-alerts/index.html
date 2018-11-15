@@ -1,0 +1,436 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Lednerb">
+        <meta name="description" content="Bilberry Premium Theme for Hugo.">
+        <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
+        <meta name="generator" content="Hugo 0.48" />
+
+        <link rel="icon" type="image/png" href="https://example.com/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://example.com/favicon-16x16.png" sizes="16x16">
+
+        <link rel="stylesheet" href="/dist/theme.css">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.1/dist/instantsearch.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.1/dist/instantsearch-theme-algolia.min.css">
+
+
+        
+            
+        
+
+        
+        <title>
+            
+                My cool new Blog | Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts
+            
+        </title>
+    </head>
+    <body class="bilberry-hugo-theme">
+        
+<nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="/page/about/">About</a></li>
+                
+            
+                
+                    <li><a href="https://github.com/nisargap" target="">Github</a></li>
+                
+            
+        </ul>
+
+        
+
+         <div id="search-box" class="search">
+            <i class="fa fa-search"></i>
+            <input id="search" type="text" placeholder="Search ...">
+        </div>
+        
+    </div>
+</nav>
+
+
+        <header>
+    <div class="container">
+        <div class="logo">
+            <a href="https://example.com" class="logo">
+                
+                    <img src="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a href="https://example.com">My cool new Blog</a></h3>
+            
+                <span class="subtitle">Hello World! This is the most epic subtitle ever.</span>
+            
+        </div>
+
+        
+        <div class="toggler">
+        
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+
+        <div class="main container">
+            
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/">
+    <i class="fa fa-fw fa-pencil"></i>
+</a>
+
+<article class="default article">
+    
+    <div class="featured-image">
+        <a href="/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/">
+            <img src="/images/conceptualizing/dashboard-v1.png" alt="">
+        </a>
+    </div>
+
+
+    <div class="content">
+    <h3><a href="/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/">Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts</a></h3>
+    <div class="meta">
+        <span class="date moment">2018-06-05</span>
+
+        
+            <span class="categories">
+                
+                    <a href="/categories/product-development">product development</a>
+                
+                    <a href="/categories/software">software</a>
+                
+                    <a href="/categories/cryptocurrency">cryptocurrency</a>
+                
+                    <a href="/categories/design">design</a>
+                
+            </span>
+        
+
+        
+            <span class="author"><a href="/author/nisarga-patel">Nisarga Patel</a></span>
+        
+    </div>
+
+    
+        
+
+<p>Often times I have ideas for different types of products and services, many times I usually just write these ideas down to come back to them at a different date - this time I wanted to try something different. In this post I&rsquo;ll be conceptualizing one of these ideas and how it would look like as product from both a backend and frontend design perspective.</p>
+
+<h5 id="the-idea">The idea</h5>
+
+<p>This application is essentially a general purpose cryptocurrency and stock market alert service i.e. a system dedicated to giving custom alerts regarding different happenings in the markets via text or email.</p>
+
+<h5 id="the-backend-design">The backend design</h5>
+
+<p><img src="/images/conceptualizing/service.png" width="300" /></p>
+
+<p>The backend service design for the core functionality would be fairly simple, the endpoints shown in the diagrams would communicate with third party APIs in order to source the info that will eventually be sent out via text or email. In the diagram I have listed <a href="https://www.twilio.com/">Twilio</a> as a possible way to send out texts programmatically, emails can be sent out via SMTP or using a third party service such as <a href="https://sendgrid.com/">SendGrid</a>.</p>
+
+<p>In this service design there is also caching of data received from third party endpoints, many APIs have rate limiting i.e. you may be able to only ping them every X minutes, therefore caching would ensure that I&rsquo;m not pinging a third party API constantly and would also increase the number of total requests a user can be served.</p>
+
+<p><img src="/images/conceptualizing/thirdparty.png" width="300" /></p>
+
+<p>Custom user-defined 3rd party data integrations may also be a feature of this service. In this case a user would be able to specify a custom endpoint and customize how that data will be parsed and sent out.</p>
+
+<h5 id="choosing-a-name-for-this-service">Choosing a name for this service</h5>
+
+<p>This hypothetical application&rsquo;s goal would be to inform and therefore give others a better perspective in regards to markets. Therefore I chose the word <em>drishti</em> which means &ldquo;perspective or focused gaze&rdquo; in Sanskrit.</p>
+
+<h5 id="frontend-design">Frontend design</h5>
+
+<p><img src="/images/conceptualizing/frontpage-v1.png" alt="Frontpage" width="500" /></p>
+
+<p>For the frontend design I decided to use <a href="https://www.sketchapp.com/">Sketch</a> and make a quick design for the frontpage and the main dashboard. In this first iteration design I kept it relatively simple for the frontpage, spacing out UI components. The logo I conceptualized as an eye first and that eventually became a planet/eye shape.</p>
+
+<p><img src="/images/conceptualizing/dashboard-v1.png" alt="Dashboard" width="500" /></p>
+
+<p>Following the same design principles from the frontpage I also designed the dashboard. The goal of the dashboard is to make it easy for users to specify custom alerts. In the create custom alert form users would ideally be able to specify the email or phone number for the alert in a modal that would appear upon pressing the corresponding button.</p>
+
+<h5 id="why">Why?</h5>
+
+<p>I chose to conceptualize this simple service as an exercise in both backend and frontend design. If you are interested in seeing this service created or know of any similar apps that perform the same or similar functionality feel free to comment below. In the future I plan on writing more posts on conceptualizing the design of different products in short form style.</p>
+
+<p>Thanks!</p>
+
+    
+</div>
+
+    
+    
+    <div class="tags">
+        <i class="fa fa-tags"></i>
+        
+            <a href="/tags/product-development">product development</a>
+        
+            <a href="/tags/software">software</a>
+        
+            <a href="/tags/cryptocurrency">cryptocurrency</a>
+        
+    </div>
+    
+
+
+</article>
+
+        
+    </div>
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bilberry-hugo-theme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+     
+
+        </div>
+
+        <footer>
+    <div class="container">
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+                <ul>
+                
+                    <li>
+                        <a href="/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/">Creating a Barebones Golang Project with Vendoring Via a Custom Setup Script</a>
+                    </li>
+                
+                    <li>
+                        <a href="/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/">Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts</a>
+                    </li>
+                
+                    <li>
+                        <a href="/article/2018-06-04-how-i-scaffold-a-react-project/">How I Scaffold a React Project</a>
+                    </li>
+                
+                    <li>
+                        <a href="/quote/2018-06-01-iot-quote-01/">Making sense of data</a>
+                    </li>
+                
+                    <li>
+                        <a href="/article/2018-05-31-draw-io-to-create-system-diagrams/">Creating Expressive System Diagrams in Draw.io &amp; Lucidchart and the Importance of System Design</a>
+                    </li>
+                
+                    <li>
+                        <a href="/link/2017-12-13-bitcoin-pizza/">bitcoinpizza.co</a>
+                    </li>
+                
+                    <li>
+                        <a href="/article/2017-12-06-affine-cipher/">Encrypting Your Grandma&#39;s Password Using the Affine Cipher</a>
+                    </li>
+                
+                    <li>
+                        <a href="/quote/martin-golding-on-code/">Martin Golding on Code</a>
+                    </li>
+                
+                </ul>
+        </div>
+
+        <div class="categories">
+            <strong>Categories</strong>
+
+            
+                <ul>
+                
+                    <li>
+                        <a href="/categories/bash">Bash (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/cryptocurrency">Cryptocurrency (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/cryptography">Cryptography (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/data">Data (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/design">Design (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/development">Development (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/general">General (3)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/golang">Golang (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/iot">Iot (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/javascript">Javascript (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/product-development">Product development (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/react">React (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/setup-scripts">Setup scripts (1)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/software">Software (4)</a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/technology">Technology (3)</a>
+                    </li>
+                
+                </ul>
+            
+        </div>
+
+        <div class="social-media">
+            <strong>Social media</strong>
+
+            
+            
+                <a href="https://twitter.com/TheRealLednerb" target="_blank"><i class="fa fa-twitter"></i></a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <a href="https://github.com/Lednerb" target="_blank"><i class="fa fa-github"></i></a>
+            
+            
+        </div>
+    </div>
+</footer>
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/Lednerb" target="_blank">&copy; 2017 by Lednerb </a>
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme" target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" integrity="sha256-TbOIe++NbC9P3KTtUMJ5wcROlBdnRqrPleLdpPg3xxE=" crossorigin="anonymous" type="application/javascript"></script>
+        <script src="https://example.com/dist/theme.js" type="application/javascript"></script>
+
+        
+            
+        
+
+        <script>
+            $(document).ready(function() {
+                $(".moment").each(function() {
+                    $(this).text(
+                        moment( $(this).text() )
+                            .locale( "en" )
+                            .format('LL')
+                    );
+                });
+
+                $(".footnote-return sup").html("[return]")
+            })
+        </script>
+
+        
+            
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.29.0/autocomplete.jquery.min.js" integrity="sha256-qUqrH6CxKeU+3ClSSiq0GGnYjoKmfLhNO4tFoTCay5c=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.5/algoliasearch.min.js" integrity="sha256-vUvLcn3X0cXhote4PNwW6d+fzjJR0hoD+yGFeVaElew=" crossorigin="anonymous"></script>
+
+<script>
+    var client = algoliasearch("Y2C4RWMPXW", "50ea7f8c41c0ad233926e0be2b769ed1");
+    var index = client.initIndex("default-content");
+
+    $('#search').autocomplete({ hint: false, autoselect: true, debug: false },
+      [
+        {
+          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+          displayKey: function(suggestion) {
+            return suggestion.title || suggestion.author
+          },
+          templates: {
+            suggestion: function(suggestion) {
+                return "<span class='entry " + suggestion.type + "'>"
+                      + "<span class='title'>" + suggestion.title + "</span>"
+                      + "<span class='fa fa-fw " + suggestion.iconClass + "'></span>"
+                  + "</span>"
+                ;
+            },
+            empty: function() {
+              return "<span class='empty'>Nothing found.</span>"
+            },
+            footer: function() {
+              return '<div class="branding">Powered by <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" /></div>'
+            }
+
+          },
+        }
+      ])
+      .on('autocomplete:selected', function(event, suggestion, dataset) {
+        window.location = (suggestion.url);
+      })
+      .keypress(function (event, suggestion) {
+        if (event.which == 13) {
+          window.location = (suggestion.url);
+        }
+      });
+</script>
+
+        
+
+
+    </body>
+</html>
