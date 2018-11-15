@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on My cool new Blog</title>
-    <link>https://example.com/article/</link>
-    <description>Recent content in Articles on My cool new Blog</description>
+    <title>Articles on Nisarga Patel</title>
+    <link>https://nisarga.io/article/</link>
+    <description>Recent content in Articles on Nisarga Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 09 Jun 2018 16:21:53 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/article/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nisarga.io/article/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating a Barebones Golang Project with Vendoring Via a Custom Setup Script</title>
-      <link>https://example.com/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</link>
+      <link>https://nisarga.io/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</link>
       <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
       
-      <guid>https://example.com/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</guid>
+      <guid>https://nisarga.io/article/2018-06-09-creating-a-go-project-via-custom-setup-scripts/</guid>
       <description>Often times one may want to create a barebones Go project with dependency vendoring. I recently created a simple script which allows one to quickly scaffold a Go project that uses the vendoring tool govendor.
 Prerequisites In order to use the script you must have already installed Go, if you&amp;rsquo;re on Mac and have Homebrew. You can easily install Go via brew install go. For install directions for other platforms check out the official Go docs.</description>
     </item>
     
     <item>
       <title>Conceptualizing a Simple Service for Crypto &amp; Stock Market Alerts</title>
-      <link>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</link>
+      <link>https://nisarga.io/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</link>
       <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
       
-      <guid>https://example.com/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</guid>
+      <guid>https://nisarga.io/article/2018-06-05-conceptualizing-a-service-for-crypto-alerts/</guid>
       <description>Often times I have ideas for different types of products and services, many times I usually just write these ideas down to come back to them at a different date - this time I wanted to try something different. In this post I&amp;rsquo;ll be conceptualizing one of these ideas and how it would look like as product from both a backend and frontend design perspective.
 The idea This application is essentially a general purpose cryptocurrency and stock market alert service i.</description>
     </item>
     
     <item>
       <title>How I Scaffold a React Project</title>
-      <link>https://example.com/article/2018-06-04-how-i-scaffold-a-react-project/</link>
+      <link>https://nisarga.io/article/2018-06-04-how-i-scaffold-a-react-project/</link>
       <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
       
-      <guid>https://example.com/article/2018-06-04-how-i-scaffold-a-react-project/</guid>
+      <guid>https://nisarga.io/article/2018-06-04-how-i-scaffold-a-react-project/</guid>
       <description>Scaffolding a project is perhaps one of the most important and common things to do during the early development stage. Depending on how a project is set up in the beginning can affect a project&amp;rsquo;s lifecycle and how things are maintained when the codebase starts growing larger.
 Using a boilerplate Most of the frontend React based projects I do start out by generating a barebones boilerplate using Facebook&amp;rsquo;s excellent and highly popular create-react-app.</description>
     </item>
     
     <item>
       <title>Creating Expressive System Diagrams in Draw.io &amp; Lucidchart and the Importance of System Design</title>
-      <link>https://example.com/article/2018-05-31-draw-io-to-create-system-diagrams/</link>
+      <link>https://nisarga.io/article/2018-05-31-draw-io-to-create-system-diagrams/</link>
       <pubDate>Thu, 31 May 2018 14:59:58 -0400</pubDate>
       
-      <guid>https://example.com/article/2018-05-31-draw-io-to-create-system-diagrams/</guid>
+      <guid>https://nisarga.io/article/2018-05-31-draw-io-to-create-system-diagrams/</guid>
       <description>Draw.io is an excellent free tool developed by Atlassian to allow developers and product managers to create expressive system designs. Draw.io supports the creation of UML diagrams, Entity Relationship diagrams, flow charts, and Business Process Modeling Notation (BPMN). In addition to this Draw.io supports a variety of icons in order to describe popular services contained within AWS, as well as other platforms.
 Describing a simple microservice in Draw.io Above is an example of simple rules microservice described with Draw.</description>
     </item>
     
     <item>
       <title>Encrypting Your Grandma&#39;s Password Using the Affine Cipher</title>
-      <link>https://example.com/article/2017-12-06-affine-cipher/</link>
+      <link>https://nisarga.io/article/2017-12-06-affine-cipher/</link>
       <pubDate>Wed, 06 Dec 2017 15:18:47 -0500</pubDate>
       
-      <guid>https://example.com/article/2017-12-06-affine-cipher/</guid>
+      <guid>https://nisarga.io/article/2017-12-06-affine-cipher/</guid>
       <description>One day you noticed your grandma was typing her passwords in a text document and referring to them when trying to log into popular websites. Wanting to teach her about the importance of security you decided to give her a brief introduction to cryptography. The first cipher you decided to teach was the affine cipher.
 Introduction to the Affine Cipher The affine cipher is a monoalphabetic substitution cipher, there isn&amp;rsquo;t really all that much to it and anyone can learn it given a few minutes.</description>
     </item>
     
     <item>
       <title>Software Development Vs. Just Hacking</title>
-      <link>https://example.com/article/2017-10-06-vs-hacking/</link>
+      <link>https://nisarga.io/article/2017-10-06-vs-hacking/</link>
       <pubDate>Fri, 06 Oct 2017 22:44:48 -0400</pubDate>
       
-      <guid>https://example.com/article/2017-10-06-vs-hacking/</guid>
+      <guid>https://nisarga.io/article/2017-10-06-vs-hacking/</guid>
       <description>Making the transition from hacking away at projects and gearing one&amp;rsquo;s self towards professional software development takes time, consistency, and considerable effort. Professional software development is measured, deals with edge cases, and has a specific methodology that it follows. Hacking can certainly churn out projects quite consistently but the quality of the product will definitely not be of the same caliber.
 It is definitely possible to build a functioning web or mobile app in 24 to 72 hours but creating one that has a proper definition of edge cases, documentation, and testing - it&amp;rsquo;s a lot of work.</description>
     </item>
     
     <item>
       <title>Why Hugo Is My Blog Engine of Choice</title>
-      <link>https://example.com/article/2017-09-24-why-i-chose-hugo/</link>
+      <link>https://nisarga.io/article/2017-09-24-why-i-chose-hugo/</link>
       <pubDate>Sun, 24 Sep 2017 15:49:29 -0400</pubDate>
       
-      <guid>https://example.com/article/2017-09-24-why-i-chose-hugo/</guid>
+      <guid>https://nisarga.io/article/2017-09-24-why-i-chose-hugo/</guid>
       <description>I had been thinking about starting a development blog for a very long time and was looking for a solid blog engine or static website generator to make the process of creating my blog and getting content out there as quickly as possible a bit more streamlined. In the past I had used GatsbyJS which had suited my needs but this time around I felt like I needed something that was different.</description>
     </item>
     
     <item>
       <title>First Post</title>
-      <link>https://example.com/article/2017-09-24-test-post/</link>
+      <link>https://nisarga.io/article/2017-09-24-test-post/</link>
       <pubDate>Sun, 24 Sep 2017 14:38:56 -0400</pubDate>
       
-      <guid>https://example.com/article/2017-09-24-test-post/</guid>
+      <guid>https://nisarga.io/article/2017-09-24-test-post/</guid>
       <description>Welcome to my development blog. In this blog I will document and provide commentary on my own projects as well as different technologies that I come across and use. I will also be posting various tutorials regarding many frameworks and technologies both on the frontend and backend.</description>
     </item>
     

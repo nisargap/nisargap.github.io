@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on My cool new Blog</title>
-    <link>https://example.com/page/</link>
-    <description>Recent content in Pages on My cool new Blog</description>
+    <title>Pages on Nisarga Patel</title>
+    <link>https://nisarga.io/page/</link>
+    <description>Recent content in Pages on Nisarga Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 01 Nov 2017 13:18:45 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nisarga.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.com/page/about/</link>
+      <link>https://nisarga.io/page/about/</link>
       <pubDate>Wed, 01 Nov 2017 13:18:45 +0100</pubDate>
       
-      <guid>https://example.com/page/about/</guid>
+      <guid>https://nisarga.io/page/about/</guid>
       <description>Welcome to my professional website and development blog. I’m Nisarga Patel, a software entrepreneur and developer who has a knack for creating software projects, as well as creating tutorials and documenting the process.</description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://example.com/page/github/</link>
+      <link>https://nisarga.io/page/github/</link>
       <pubDate>Wed, 01 Nov 2017 13:17:56 +0100</pubDate>
       
-      <guid>https://example.com/page/github/</guid>
+      <guid>https://nisarga.io/page/github/</guid>
       <description></description>
     </item>
     

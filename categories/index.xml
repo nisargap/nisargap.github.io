@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My cool new Blog</title>
-    <link>https://example.com/categories/</link>
-    <description>Recent content in Categories on My cool new Blog</description>
+    <title>Categories on Nisarga Patel</title>
+    <link>https://nisarga.io/categories/</link>
+    <description>Recent content in Categories on Nisarga Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 09 Jun 2018 16:21:53 -0400</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nisarga.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash</title>
-      <link>https://example.com/categories/bash/</link>
+      <link>https://nisarga.io/categories/bash/</link>
       <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
       
-      <guid>https://example.com/categories/bash/</guid>
+      <guid>https://nisarga.io/categories/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptocurrency</title>
-      <link>https://example.com/categories/cryptocurrency/</link>
+      <link>https://nisarga.io/categories/cryptocurrency/</link>
       <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
       
-      <guid>https://example.com/categories/cryptocurrency/</guid>
+      <guid>https://nisarga.io/categories/cryptocurrency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptography</title>
-      <link>https://example.com/categories/cryptography/</link>
+      <link>https://nisarga.io/categories/cryptography/</link>
       <pubDate>Wed, 06 Dec 2017 15:18:47 -0500</pubDate>
       
-      <guid>https://example.com/categories/cryptography/</guid>
+      <guid>https://nisarga.io/categories/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>https://example.com/categories/data/</link>
+      <link>https://nisarga.io/categories/data/</link>
       <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
       
-      <guid>https://example.com/categories/data/</guid>
+      <guid>https://nisarga.io/categories/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://example.com/categories/design/</link>
+      <link>https://nisarga.io/categories/design/</link>
       <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
       
-      <guid>https://example.com/categories/design/</guid>
+      <guid>https://nisarga.io/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://example.com/categories/development/</link>
+      <link>https://nisarga.io/categories/development/</link>
       <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
       
-      <guid>https://example.com/categories/development/</guid>
+      <guid>https://nisarga.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General</title>
-      <link>https://example.com/categories/general/</link>
+      <link>https://nisarga.io/categories/general/</link>
       <pubDate>Fri, 06 Oct 2017 22:44:48 -0400</pubDate>
       
-      <guid>https://example.com/categories/general/</guid>
+      <guid>https://nisarga.io/categories/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://example.com/categories/golang/</link>
+      <link>https://nisarga.io/categories/golang/</link>
       <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
       
-      <guid>https://example.com/categories/golang/</guid>
+      <guid>https://nisarga.io/categories/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iot</title>
-      <link>https://example.com/categories/iot/</link>
+      <link>https://nisarga.io/categories/iot/</link>
       <pubDate>Fri, 01 Jun 2018 13:33:07 -0400</pubDate>
       
-      <guid>https://example.com/categories/iot/</guid>
+      <guid>https://nisarga.io/categories/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://example.com/categories/javascript/</link>
+      <link>https://nisarga.io/categories/javascript/</link>
       <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
       
-      <guid>https://example.com/categories/javascript/</guid>
+      <guid>https://nisarga.io/categories/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product Development</title>
-      <link>https://example.com/categories/product-development/</link>
+      <link>https://nisarga.io/categories/product-development/</link>
       <pubDate>Tue, 05 Jun 2018 23:17:26 -0400</pubDate>
       
-      <guid>https://example.com/categories/product-development/</guid>
+      <guid>https://nisarga.io/categories/product-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://example.com/categories/react/</link>
+      <link>https://nisarga.io/categories/react/</link>
       <pubDate>Mon, 04 Jun 2018 21:40:35 -0400</pubDate>
       
-      <guid>https://example.com/categories/react/</guid>
+      <guid>https://nisarga.io/categories/react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Setup Scripts</title>
-      <link>https://example.com/categories/setup-scripts/</link>
+      <link>https://nisarga.io/categories/setup-scripts/</link>
       <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
       
-      <guid>https://example.com/categories/setup-scripts/</guid>
+      <guid>https://nisarga.io/categories/setup-scripts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://example.com/categories/software/</link>
+      <link>https://nisarga.io/categories/software/</link>
       <pubDate>Sat, 09 Jun 2018 16:21:53 -0400</pubDate>
       
-      <guid>https://example.com/categories/software/</guid>
+      <guid>https://nisarga.io/categories/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://example.com/categories/technology/</link>
+      <link>https://nisarga.io/categories/technology/</link>
       <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
       
-      <guid>https://example.com/categories/technology/</guid>
+      <guid>https://nisarga.io/categories/technology/</guid>
       <description></description>
     </item>
     

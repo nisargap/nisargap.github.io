@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="author" content="Lednerb">
-        <meta name="description" content="Bilberry Premium Theme for Hugo.">
-        <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
+        <meta name="author" content="Nisarga">
+        <meta name="description" content="Personal website of a software engineer">
+        <meta name="keywords" content="react,html,js,frontend">
         <meta name="generator" content="Hugo 0.48" />
 
-        <link rel="icon" type="image/png" href="https://example.com/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="https://example.com/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="https://nisarga.io/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://nisarga.io/favicon-16x16.png" sizes="16x16">
 
         <link rel="stylesheet" href="/dist/theme.css">
 
@@ -25,7 +25,7 @@
         
         <title>
             
-                My cool new Blog | 404 Page not found
+                Nisarga Patel | 404 Page not found
             
         </title>
     </head>
@@ -47,12 +47,6 @@
         </ul>
 
         
-
-         <div id="search-box" class="search">
-            <i class="fa fa-search"></i>
-            <input id="search" type="text" placeholder="Search ...">
-        </div>
-        
     </div>
 </nav>
 
@@ -60,7 +54,7 @@
         <header>
     <div class="container">
         <div class="logo">
-            <a href="https://example.com" class="logo">
+            <a href="https://nisarga.io" class="logo">
                 
                     <img src="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&size=200" alt="">
                 
@@ -69,9 +63,9 @@
             </a>
         </div>
         <div class="titles">
-            <h3 class="title"><a href="https://example.com">My cool new Blog</a></h3>
+            <h3 class="title"><a href="https://nisarga.io">Nisarga Patel</a></h3>
             
-                <span class="subtitle">Hello World! This is the most epic subtitle ever.</span>
+                <span class="subtitle">Software Engineer</span>
             
         </div>
 
@@ -223,7 +217,7 @@
 
             
             
-                <a href="https://twitter.com/TheRealLednerb" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/nphacker" target="_blank"><i class="fa fa-twitter"></i></a>
             
             
             
@@ -233,7 +227,7 @@
             
             
             
-                <a href="https://github.com/Lednerb" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/nisargap" target="_blank"><i class="fa fa-github"></i></a>
             
             
         </div>
@@ -257,7 +251,7 @@
         
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js" integrity="sha256-TbOIe++NbC9P3KTtUMJ5wcROlBdnRqrPleLdpPg3xxE=" crossorigin="anonymous" type="application/javascript"></script>
-        <script src="https://example.com/dist/theme.js" type="application/javascript"></script>
+        <script src="https://nisarga.io/dist/theme.js" type="application/javascript"></script>
 
         
             
@@ -276,50 +270,6 @@
                 $(".footnote-return sup").html("[return]")
             })
         </script>
-
-        
-            
-<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.29.0/autocomplete.jquery.min.js" integrity="sha256-qUqrH6CxKeU+3ClSSiq0GGnYjoKmfLhNO4tFoTCay5c=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.5/algoliasearch.min.js" integrity="sha256-vUvLcn3X0cXhote4PNwW6d+fzjJR0hoD+yGFeVaElew=" crossorigin="anonymous"></script>
-
-<script>
-    var client = algoliasearch("Y2C4RWMPXW", "50ea7f8c41c0ad233926e0be2b769ed1");
-    var index = client.initIndex("default-content");
-
-    $('#search').autocomplete({ hint: false, autoselect: true, debug: false },
-      [
-        {
-          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-          displayKey: function(suggestion) {
-            return suggestion.title || suggestion.author
-          },
-          templates: {
-            suggestion: function(suggestion) {
-                return "<span class='entry " + suggestion.type + "'>"
-                      + "<span class='title'>" + suggestion.title + "</span>"
-                      + "<span class='fa fa-fw " + suggestion.iconClass + "'></span>"
-                  + "</span>"
-                ;
-            },
-            empty: function() {
-              return "<span class='empty'>Nothing found.</span>"
-            },
-            footer: function() {
-              return '<div class="branding">Powered by <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" /></div>'
-            }
-
-          },
-        }
-      ])
-      .on('autocomplete:selected', function(event, suggestion, dataset) {
-        window.location = (suggestion.url);
-      })
-      .keypress(function (event, suggestion) {
-        if (event.which == 13) {
-          window.location = (suggestion.url);
-        }
-      });
-</script>
 
         
 

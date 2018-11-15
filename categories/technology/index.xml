@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technology on My cool new Blog</title>
-    <link>https://example.com/categories/technology/</link>
-    <description>Recent content in Technology on My cool new Blog</description>
+    <title>Technology on Nisarga Patel</title>
+    <link>https://nisarga.io/categories/technology/</link>
+    <description>Recent content in Technology on Nisarga Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 22 Nov 2017 23:29:14 -0500</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nisarga.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Martin Golding on Code</title>
-      <link>https://example.com/quote/martin-golding-on-code/</link>
+      <link>https://nisarga.io/quote/martin-golding-on-code/</link>
       <pubDate>Wed, 22 Nov 2017 23:29:14 -0500</pubDate>
       
-      <guid>https://example.com/quote/martin-golding-on-code/</guid>
+      <guid>https://nisarga.io/quote/martin-golding-on-code/</guid>
       <description>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</description>
     </item>
     
     <item>
       <title>Software Development Vs. Just Hacking</title>
-      <link>https://example.com/article/2017-10-06-vs-hacking/</link>
+      <link>https://nisarga.io/article/2017-10-06-vs-hacking/</link>
       <pubDate>Fri, 06 Oct 2017 22:44:48 -0400</pubDate>
       
-      <guid>https://example.com/article/2017-10-06-vs-hacking/</guid>
+      <guid>https://nisarga.io/article/2017-10-06-vs-hacking/</guid>
       <description>Making the transition from hacking away at projects and gearing one&amp;rsquo;s self towards professional software development takes time, consistency, and considerable effort. Professional software development is measured, deals with edge cases, and has a specific methodology that it follows. Hacking can certainly churn out projects quite consistently but the quality of the product will definitely not be of the same caliber.
 It is definitely possible to build a functioning web or mobile app in 24 to 72 hours but creating one that has a proper definition of edge cases, documentation, and testing - it&amp;rsquo;s a lot of work.</description>
     </item>
     
     <item>
       <title>Why Hugo Is My Blog Engine of Choice</title>
-      <link>https://example.com/article/2017-09-24-why-i-chose-hugo/</link>
+      <link>https://nisarga.io/article/2017-09-24-why-i-chose-hugo/</link>
       <pubDate>Sun, 24 Sep 2017 15:49:29 -0400</pubDate>
       
-      <guid>https://example.com/article/2017-09-24-why-i-chose-hugo/</guid>
+      <guid>https://nisarga.io/article/2017-09-24-why-i-chose-hugo/</guid>
       <description>I had been thinking about starting a development blog for a very long time and was looking for a solid blog engine or static website generator to make the process of creating my blog and getting content out there as quickly as possible a bit more streamlined. In the past I had used GatsbyJS which had suited my needs but this time around I felt like I needed something that was different.</description>
     </item>
     
