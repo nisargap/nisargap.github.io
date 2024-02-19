@@ -1,5 +1,0 @@
-
-Sitemap: https://nisargap.github.io/sitemap.xml
-User-Agent: *
-Allow: /
-Host: https://nisargap.github.io
