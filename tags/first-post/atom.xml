@@ -23,7 +23,7 @@
         <link rel="alternate" type="text/html" href="https://nisargap.github.io/first-post/"/>
         <id>https://nisargap.github.io/first-post/</id>
         
-        <content type="html" xml:base="https://nisargap.github.io/first-post/">&lt;h1 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to my Blog&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://nisargap.github.io/first-post/">&lt;h2 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to my Blog&lt;&#x2F;h2&gt;
 &lt;p&gt;This is my first post for my open development blog. In this blog I will post on a variety of topics including but not confined to:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Software development&lt;&#x2F;li&gt;
