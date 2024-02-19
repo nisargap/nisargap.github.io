@@ -13,50 +13,14 @@
         <loc>https://nisargap.github.io/blog/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/contact/</loc>
+        <loc>https://nisargap.github.io/first-post/</loc>
+        <lastmod>2024-02-18</lastmod>
     </url>
     <url>
         <loc>https://nisargap.github.io/offline/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/overview-abridge/</loc>
-        <lastmod>2023-07-21</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-code-blocks/</loc>
-        <lastmod>2022-05-16</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-images/</loc>
-        <lastmod>2021-05-19</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-markdown-and-style/</loc>
-        <lastmod>2022-05-15</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-math/</loc>
-        <lastmod>2022-01-01</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-rich-content/</loc>
-        <lastmod>2021-05-15</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/overview-showdata/</loc>
-        <lastmod>2021-05-04</lastmod>
-    </url>
-    <url>
         <loc>https://nisargap.github.io/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/page/3/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/page/4/</loc>
     </url>
     <url>
         <loc>https://nisargap.github.io/privacy/</loc>
@@ -65,42 +29,12 @@
         <loc>https://nisargap.github.io/tags/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/tags/audio/</loc>
+        <loc>https://nisargap.github.io/tags/blog/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/tags/config/</loc>
+        <loc>https://nisargap.github.io/tags/first-post/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/tags/data/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/features/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/images/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/markdown/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/mathematics/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/shortcodes/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/tags/video/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/video-streaming-sites/overview-embed-streamable/</loc>
-        <lastmod>2021-05-06</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/video-streaming-sites/overview-embed-vimeo/</loc>
-        <lastmod>2021-05-07</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/video-streaming-sites/overview-embed-youtube/</loc>
-        <lastmod>2021-05-08</lastmod>
+        <loc>https://nisargap.github.io/tags/general/</loc>
     </url>
 </urlset>
