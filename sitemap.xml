@@ -4,26 +4,18 @@
         <loc>https://nisargap.github.io/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/about/</loc>
+        <loc>https://nisargap.github.io/20240218-first-post/</loc>
+        <lastmod>2024-02-18</lastmod>
+    </url>
+    <url>
+        <loc>https://nisargap.github.io/20240222-wire-compatibility/</loc>
+        <lastmod>2024-02-22</lastmod>
     </url>
     <url>
         <loc>https://nisargap.github.io/archive/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/blog/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/first-post/</loc>
-        <lastmod>2024-02-18</lastmod>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/offline/</loc>
-    </url>
-    <url>
         <loc>https://nisargap.github.io/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://nisargap.github.io/privacy/</loc>
     </url>
     <url>
         <loc>https://nisargap.github.io/tags/</loc>
@@ -32,9 +24,9 @@
         <loc>https://nisargap.github.io/tags/blog/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/tags/first-post/</loc>
+        <loc>https://nisargap.github.io/tags/general/</loc>
     </url>
     <url>
-        <loc>https://nisargap.github.io/tags/general/</loc>
+        <loc>https://nisargap.github.io/tags/software/</loc>
     </url>
 </urlset>

@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Nisarga&#x27;s Blog - General</title>
-    <subtitle>Software Engineer, Entrepreneur</subtitle>
+    <subtitle>This is my personal blog in which I write about software development, engineering, and various other topics.</subtitle>
     <link rel="self" type="application/atom+xml" href="https://nisargap.github.io/tags/general/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nisargap.github.io"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-02-18T00:00:00+00:00</updated>
+    <updated>2024-02-22T00:00:00+00:00</updated>
     <id>https://nisargap.github.io/tags/general/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Maintaining Wire Compatibility</title>
+        <published>2024-02-22T00:00:00+00:00</published>
+        <updated>2024-02-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nisargap.github.io/20240222-wire-compatibility/"/>
+        <id>https://nisargap.github.io/20240222-wire-compatibility/</id>
+        
+        <content type="html" xml:base="https://nisargap.github.io/20240222-wire-compatibility/">&lt;p&gt;In a production software engineering environment, often times one needs to add fields to a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;protobuf.dev&#x2F;&quot;&gt;proto (protobuf)&lt;&#x2F;a&gt;; which is a lightweight message payload format. What is often easy to overlook is that the proto may be in use by a number of downstream customers. Services also may not be fetching the latest version for that proto and therefore may not have access to the most up-to-date format.&lt;&#x2F;p&gt;
+&lt;p&gt;In this type of situation there are a number of ways to handle the addition of a new field(s):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Communicate with downstream customers to update to the latest version of the proto for all of their services. This is generally a cumbersome approach depending on how many customers use the proto.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a new proto that is a copy of the existing one but includes the new field(s) and gradually migrate downstream customers to use the new format.&lt;&#x2F;li&gt;
+&lt;li&gt;Version the proto and enforce strict versioning constraints.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Essentially, the goal of due-dilligence here is to avoid a situation where there is a &lt;em&gt;wire incompatibility.&lt;&#x2F;em&gt; We do not want a downstream service to break because they are calling an endpoint without a newly required parameter. Wire incompatibility is quite a commonplace issue and as an engineer one needs to be careful when rolling out new features to ensure that they are also backwards compatible.&lt;&#x2F;p&gt;
+&lt;p&gt;Related Readings:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;learn.microsoft.com&#x2F;en-us&#x2F;windows&#x2F;win32&#x2F;rpc&#x2F;changing-interfaces-in-a-backward-compatible-manner&quot;&gt;Changing Interfaces in a Backward Compatible Manner&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>First Blog Post</title>
         <published>2024-02-18T00:00:00+00:00</published>
@@ -20,10 +51,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://nisargap.github.io/first-post/"/>
-        <id>https://nisargap.github.io/first-post/</id>
+        <link rel="alternate" type="text/html" href="https://nisargap.github.io/20240218-first-post/"/>
+        <id>https://nisargap.github.io/20240218-first-post/</id>
         
-        <content type="html" xml:base="https://nisargap.github.io/first-post/">&lt;h2 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to my Blog&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://nisargap.github.io/20240218-first-post/">&lt;h2 id=&quot;welcome-to-my-blog&quot;&gt;Welcome to my Blog&lt;&#x2F;h2&gt;
 &lt;p&gt;This is my first post for my open development blog. In this blog I will post on a variety of topics including but not confined to:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Software development&lt;&#x2F;li&gt;
