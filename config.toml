@@ -1,0 +1,29 @@
+# Zola config for even theme
+base_url = "https://nisargap.github.io"
+title = "Nisarga's Blog"
+description = "Personal blog and portfolio"
+default_language = "en"
+theme = "even"
+compile_sass = true
+generate_feeds = true
+
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+[markdown]
+smart_punctuation = true
+
+[markdown.highlighting]
+theme = "dracula"
+
+[extra]
+author = "Nisarga"
+even_title = "Nisarga's Blog"
+even_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/about", name = "About"},
+]
