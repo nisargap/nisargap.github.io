@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c41e3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flameGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff8c00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="400" fill="url(#skyGradient)"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="150" cy="80" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="200" cy="40" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="650" cy="60" r="1.5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="700" cy="100" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="750" cy="70" r="1" fill="#ffffff" opacity="0.6"/>
+  <circle cx="80" cy="120" r="1.5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="720" cy="140" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Rocket body -->
+  <g transform="translate(380, 120)">
+    <!-- Flame/exhaust -->
+    <path d="M -15 160 Q -20 180 -25 200 Q -30 220 -35 240"
+          stroke="url(#flameGradient)" stroke-width="8" fill="none" opacity="0.8">
+      <animate attributeName="d"
+               values="M -15 160 Q -20 180 -25 200 Q -30 220 -35 240;
+                       M -15 160 Q -18 175 -22 195 Q -28 215 -32 235;
+                       M -15 160 Q -20 180 -25 200 Q -30 220 -35 240"
+               dur="0.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 15 160 Q 20 180 25 200 Q 30 220 35 240"
+          stroke="url(#flameGradient)" stroke-width="8" fill="none" opacity="0.8">
+      <animate attributeName="d"
+               values="M 15 160 Q 20 180 25 200 Q 30 220 35 240;
+                       M 15 160 Q 18 175 22 195 Q 28 215 32 235;
+                       M 15 160 Q 20 180 25 200 Q 30 220 35 240"
+               dur="0.3s" repeatCount="indefinite"/>
+    </path>
+    <ellipse cx="0" cy="165" rx="20" ry="35" fill="url(#flameGradient)" opacity="0.9">
+      <animate attributeName="ry" values="35;30;35" dur="0.3s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Main body -->
+    <rect x="-25" y="40" width="50" height="120" fill="url(#rocketGradient)" rx="5"/>
+
+    <!-- Window -->
+    <circle cx="0" cy="70" r="12" fill="#16213e" opacity="0.8"/>
+    <circle cx="0" cy="70" r="9" fill="#4a90e2" opacity="0.6"/>
+
+    <!-- Nose cone -->
+    <path d="M -25 40 L 0 0 L 25 40 Z" fill="#c41e3a"/>
+
+    <!-- Fins -->
+    <path d="M -25 140 L -45 160 L -25 160 Z" fill="#16213e"/>
+    <path d="M 25 140 L 45 160 L 25 160 Z" fill="#16213e"/>
+
+    <!-- Rust logo (stylized R) -->
+    <text x="-8" y="120" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">R</text>
+
+    <!-- Details/rivets -->
+    <circle cx="-15" cy="50" r="2" fill="#8b0000"/>
+    <circle cx="15" cy="50" r="2" fill="#8b0000"/>
+    <circle cx="-15" cy="90" r="2" fill="#8b0000"/>
+    <circle cx="15" cy="90" r="2" fill="#8b0000"/>
+    <circle cx="-15" cy="130" r="2" fill="#8b0000"/>
+    <circle cx="15" cy="130" r="2" fill="#8b0000"/>
+  </g>
+
+  <!-- Code brackets decoration -->
+  <text x="50" y="350" font-family="monospace" font-size="48" fill="#4a90e2" opacity="0.3">&lt;/&gt;</text>
+  <text x="680" y="350" font-family="monospace" font-size="48" fill="#4a90e2" opacity="0.3">{}</text>
+
+  <!-- Title text -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="#ffffff" text-anchor="middle" opacity="0.9">Building with Rocket.rs</text>
+</svg>
