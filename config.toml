@@ -1,11 +1,12 @@
 # Zola config for even theme
 base_url = "https://nisargap.github.io"
 title = "Nisarga's Blog"
-description = "Personal blog and portfolio"
+description = "Software engineering blog covering system design, Rust, distributed systems, AI, and career development"
 default_language = "en"
 theme = "even"
 compile_sass = true
 generate_feeds = true
+build_search_index = true
 
 taxonomies = [
     {name = "categories", feed = true},
